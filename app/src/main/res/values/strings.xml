@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Click to Chat</string>
+    <string name="about">This app uses WhatsApp public api to open a chat with any number you enter.
+        No contact is created on the device.</string>
+    <string name="enter_num">Enter WhatsApp Number</string>
+
+</resources>
