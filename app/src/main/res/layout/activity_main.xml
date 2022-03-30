@@ -19,7 +19,7 @@
             android:text="@string/app_name"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:padding="20dp"/>
+            android:padding="10dp"/>
 
     </LinearLayout>
 
@@ -50,7 +50,9 @@
                 android:layout_marginTop="10dp"
                 android:padding="10dp"/>
 
+
             <EditText
+                android:textAlignment="center"
                 android:id="@+id/txt_phone"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -78,7 +80,7 @@
         android:padding="5dp">
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
@@ -87,8 +89,16 @@
                 android:layout_width="250dp"
                 android:layout_margin="10dp"
                 android:layout_height="wrap_content"
-                android:text="Open"
-                android:textAllCaps="false"/>
+                android:text="OPEN"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/img_about"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_info_24" />
 
 
         </LinearLayout>
